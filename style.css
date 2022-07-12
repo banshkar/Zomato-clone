@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,100;1,200&family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,100;1,200&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
+}
+header{
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    
+}
+.header-imag{
+    width: 100%;
+    position: absolute;
+    top: -30vh;
+    z-index: -1;
+}
+.header-imag img{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin: 0 1rem;
+    color: rgb(234, 238, 229);
+}
+
+.nav .nav-bar{
+    display: flex;
+    align-items: center;
+    padding: 1rem .5rem;
+    list-style: none;
+    
+}
+.nav .nav-bar li{
+    margin: 0 1rem;
+}
+.head{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 7rem;
+   align-items: center;
+}
+.logo{
+    width: 50vh;
+}
+.head h3{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin-top: 1rem;
+    word-spacing: .5rem;
+}
+.search{
+    display: flex;
+    width: 50rem;
+    border-radius: .5rem ;
+    padding: .8rem .8rem;
+    align-items: center;
+    background: white;
+    margin-top:  2rem ;
+}
+.search .search-item{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem 0;
+}
+.search .search-item i{
+    color: palevioletred;
+    font-size: 1.5rem;
+    margin-left: 0;
+  
+
+}
+.search .search-item p{
+    font-size: 1rem;
+    color: rgb(176, 174, 174);
+    margin-right: .5rem;
+    padding: 5px;
+    margin-left: .3rem;
+   
+}
+.search .search-item .icons{
+    margin-left: 2rem;
+    border-left:.2rem solid rgba(0,0,0,.1) ;
+    padding-left: 1rem;
+   
+}
+.search .search-item .icons i{
+    color: gray;
+ }
+.search .search-item input{
+    width: 20rem;
+    margin-left: 1rem;
+    outline: none;
+    border:none;
+}
+.section-1{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 2rem;
+}
+.section-1 .section-1-items{
+ border: 0.1rem solid rgba(0,0,0,.1);
+ position: relative;
+ border-radius: 0.5rem;
+ background: white;
+ margin: 1rem ;
+ width: 24rem;
+ overflow: hidden;
+}
+.section-1 .section-1-items img{
+    width: 100%;
+    border: .1rem solid white;
+    border-radius: 0.5rem;
+    z-index: -1;
+}
+.section-1 .section-1-items .item-detains{
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    z-index: 2;
+    background:white;
+}
+.section-1 .section-1-items .item-detains p{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: rgb(45, 44, 44);
+   font-weight: bolder;
+}
+.section-1 .section-1-items .item-detains span{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: rgb(84, 84, 106);
+}
+.collection{
+    margin-left: 3rem;
+    padding-left: 1rem;
+
+}
+.collection h2{
+    font-size: 3rem;
+    font-family: 'Albert Sans', sans-serif;
+}
+.collection span{
+    margin-right: 5rem;
+    color: crimson;
+    font-family: 'Albert Sans', sans-serif;
+}
+.collection .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.section-2 .section-2-item{
+    border: .1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: .5rem;
+    overflow: hidden;
+    position: relative;
+    background: white;
+}
+.section-2 .section-2-item .section-details{
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+    color: white;
+}
+.section-2 .section-2-item .section-details span i{
+    border: none;
+    color: black;
+    
+
+}
+.section-2 img{
+    width: 18rem;
+    height: 20rem;
+}
+.heading h2{
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    margin-top: 5rem;
+
+}
+.heading span{
+    margin-left: .5rem;
+}
+.section-3{
+    padding: 2rem;
+}
+.section-3 .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.section-3 .container .box{
+    flex: 1 1 18rem;
+    border: .1rem solid rgb(176, 174, 174);
+    border-radius: 0.5rem;
+    margin: .5rem;
+    background: white;
+    padding: 1rem;
+    box-shadow: 1rem 1rem white;
+
+}
+.section-4{
+    margin-bottom: 5rem;
+    padding: 2rem;
+    background: rgb(255, 253, 248);
+    outline: none;
+    
+}
+.section-4 .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;}
+.section-4 .container .container-img{
+    padding-left: 5rem;
+    /* border: .1rem solid whitesmoke; */
+    padding-top: 1rem;
+
+    }
+.section-4 .container .container-img img{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 5rem;
+}
+.section-4 .container .container-content .dowload img{
+    width: 8rem;
+    height: 3rem;
+    
+}
+.section-4 .container-content{
+    padding-bottom: 1rem;
+}
+.section-4 .container-content h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.section-4 .container-content p{
+    margin-bottom: 1rem;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.section-4 .container-content .btn{
+    display: flex;
+    align-items: center;
+     
+}
+.section-4 .container-content .btn .email{
+    border-radius: 50%;
+    border: .5rem solid rgb(220, 36, 103);
+    padding: .2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+   
+   
+}
+.section-4 .container-content .btn .phone{
+    border-radius: 50%;
+    border: .5rem solid gainsboro;
+    padding: .2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem; 
+    margin-left: 2rem;
+}
+.section-4 .container-content .input{
+    margin-bottom: 1rem;
+    border: .1rem solid white;
+    border-radius: .5rem white;
+    background: white;
+}
+.section-4 .container-content .input input{
+    width: 20rem;
+    padding: .5rem;
+    background: white;
+    border-radius: .7rem white;
+}
+.section-4 .container-content .input .share{
+    padding: .5rem;
+    margin: .5rem .5rem;
+    border-radius: .2rem;
+    background: rgb(225, 56, 84);
+    color: white;
+}
+
+.section-4 .container-content .dowload img{
+    margin: .5rem;
+    padding: 1rem;
+}
+footer{
+    padding: 1rem;
+    background: rgb(240, 234, 222);
+}
+.section-5{
+    margin-bottom: 5rem;
+}
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem;
+}
+footer .container .box{
+    flex: 1 1 10rem;
+    margin-bottom: 1rem;
+    
+}
+footer .container .box .img img{
+    width: 9rem;
+    height: 3rem;
+    margin: .1rem;
+
+}
+footer .section .container .box h2{
+    display: inline;
+}
+footer .heading{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+footer .heading h2{
+    margin-left: 5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+}
+footer .heading  .btn{
+ padding-right: 2rem;
+ margin-top: 2rem;
+}
+footer .heading  .btn button{
+    width: 8rem;
+    height: 2rem;
+    margin: 2rem;
+}
+footer .user{
+    margin: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+
+
+
